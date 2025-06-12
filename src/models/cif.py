@@ -27,7 +27,6 @@ class CustomerInformationForm(BaseModel):
         description="Personal details for Client 2, if applicable.",
     )
 
-    # Only considering UK clients in this MVP. TODO: Consider US clients too as Nevis addresses both markets
     current_address: Optional[CurrentAddressUK] = Field(
         default=None,
         description="Details of the client's current residential address.",

@@ -10,7 +10,7 @@ from src.routes import extraction
 
 # --- Configure Logging ---
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("NevisWealth_App")
+logger = logging.getLogger("CIF_Extractor")
 
 # --- Application Lifespan Context ---
 app_extractor_instance: Optional[CustomerInfoExtractor] = None
