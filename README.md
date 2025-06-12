@@ -88,3 +88,10 @@ d. Back in the Gradio UI, you can click "Refresh Status" (or if you configured g
 ## Agent Evaluation Test Suite
 
 Coming soon.
+
+# Further Work
+
+- Agent evaluation
+- API tests
+- More detailed extractor prompt 
+- Front End with TypeScript
